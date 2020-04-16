@@ -12,7 +12,7 @@ var (
 	mutex = &sync.Mutex{}
 )
 
-func log(level, text string, args ...interface{}) {
+func log(level, text string) {
 	if level == "INFO" {
 		text = aurora.Blue("[INFO] ").String() + text
 	}

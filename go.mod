@@ -1,4 +1,4 @@
-module github.com/hahwul/hwul-logger
+module github.com/hahwul/hlogger
 
 go 1.14
 

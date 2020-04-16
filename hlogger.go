@@ -12,6 +12,7 @@ var (
 	mutex = &sync.Mutex{}
 )
 
+// log is log
 func log(level, text string) {
 	if level == "INFO" {
 		text = aurora.Blue("[INFO] ").String() + text
